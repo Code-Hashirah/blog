@@ -56,3 +56,70 @@ justify-content: space-evenly;
         border-right: 1px solid gray
     
     }
+    #middlenav{
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
+   
+    #shopping{
+        display: flex;
+        color: red;
+        font-size: 20px;
+        width: 30%;
+    }
+    #search{
+        color: red;
+        font-size: 20px;
+        width: 50%;
+    }
+    #shopping i{
+        font-size: 30px;
+    }
+    #search i{
+        text-align: center;
+        color: white;
+        background-color: red;
+    }
+    #shoplogo{
+        color: red;
+        font-size: 20px;
+        /* width: 30%; */
+    }
+    #shopping h2{
+        color: black;
+    }
+
+    #shopping h3{
+        color: red;
+        font-size: 25px;
+    }
+    #shopping sub {
+        font-size: 8px;
+    }
+    #shoplogo p{
+        text-align: center;
+        font-size: 12px;
+    }
+    #lowernav{
+        margin-top: 10px;
+        width: 100%;
+        background-color: red;
+    }
+    #lowernav ul{
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-left: 70px;
+        width: 70%;
+        display: flex;
+        list-style-type: none;
+        justify-content: space-between;
+    }
+    #lowernav a{
+            text-decoration: none;
+            color: white;
+    }
+    #lowernav select{
+        background-color: red;
+        color: white;
+    }
