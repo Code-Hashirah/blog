@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: white;
+    font-size: 14px;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+}
+
+#topnav{
+list-style-type: none;
+color: red;
+/* display: flex; */
+}
