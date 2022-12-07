@@ -7,31 +7,42 @@
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="css/nav.css">
 </head>
 <!-- body html -->
 <body>
     <!-- header part -->
-<header id ="header">
+<header id="header">
     <section class="navbar">
-        <ul id="topnav">
-            <li><a href="">English</a> </li>
+        <ul id="topnav1">
+            <li><a href="">English <select name="drop" id="drop"></select></a> </li>
             <li><a href="">USD</a></li>
             <li>+977625347</li>
-            <li></li>
-            <li><a href=""></a> My Account</li>
-            <li><a href=""></a> Wish List</li>
-            <li><a href=""></a> Check List</li>
-            <li><a href=""></a> Login</li>
         </ul>
-        <ul id="lowernav"> 
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
-            <li><a href=""></a></li>
+         <ul id="topnav2">  
+            <li><a href="">My Account</a> </li>
+            <li><a href="">Wish List</a> </li>
+            <li><a href="">My Cart</a> </li>
+            <li><a href="">Check List</a> </li>
+            <li><a href="">Login</a> </li>
         </ul>
     </section>
+    <div id="middlenav">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <form action="get">
+            <input type="text" name="search" id="search">
+            <i class="fa-sharp fa-solid fa-magnifying-glass"></i>
+        </form>
+        <i class="fa-solid fa-bag-shopping"></i>
+    </div>
+    <div id="lowernav">
+        <ul > 
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+            <li><a href=""></a></li>
+        </ul>
+    </div>
 </header>    
 
 <!-- main content part -->
