@@ -137,16 +137,21 @@ justify-content: space-evenly;
             margin-left: 10px;
             margin-right: 10px;
         }
+        #shopping sub{
+            font-size: 6px;
+            flex-wrap: nowrap;
+        }
     }
    @media (max-width:690px) {
     .navbar{
         display: flex;
         width: auto;
       flex-direction: column;
+      border: none;
      
     }
     #topnav1{
-        /* display: inline; */
+        display: inline;
         width: auto;
         border: none;
        flex-direction: row;
@@ -154,7 +159,7 @@ justify-content: space-evenly;
     }
     #topnav2{
         display: inline;
-        /* width: auto; */
+        width: auto;
         border: none;
         margin-left: 10px;
        flex-direction: row;
@@ -181,7 +186,8 @@ justify-content: space-evenly;
         /* color: red; */
     }
     #lowernav li{
-        flex-wrap: no-wrap;
+        flex-wrap:nowrap ;
+        flex-shrink:unset;
         width: 100%;
         font-size: 12px;
         align-self: flex-start;
