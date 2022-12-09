@@ -15,27 +15,30 @@
     height: 400px;
 }
 
-/* /* #banner{
-    background-image: url("images/BackImg1.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-/* } */
+
 #banner > p{
     position: absolute;
-    right: 400px;
-    bottom: 400px;
+    right: 40%;
+    bottom: 50%;
     font-weight: 800;
-    background-color: transparent;
+    background-color: white;
     border: 1px solid grey;
+    font-size: 16px;
     color: red;
 } 
 #banner > #p{
     position: absolute;
-    right: 300px;
-    bottom: 200px;
+    right: 35%;
+    bottom: 40%;
     background-color: transparent;
+    font-size:24px;
     border: 1px solid grey;
     color: black;
 } 
+#tripple-img{
+    display: flex;
+}
+#tripple-img img {
+    width: 33.33%;
+    height: 200px;
+}
