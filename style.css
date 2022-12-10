@@ -9,6 +9,9 @@
     font-size: 12px;
     width: 100%;
 }
+#banner {
+    width: 100%;
+}
 #banner > img{
     position: relative;
     width: 100%;
@@ -25,15 +28,18 @@
     border: 1px solid grey;
     font-size: 16px;
     color: red;
+    width: auto;
+    overflow: auto;
 } 
 #banner > #p{
     position: absolute;
     right: 35%;
     bottom: 40%;
-    background-color: transparent;
+    background-color: white;
     font-size:24px;
     border: 1px solid grey;
     color: black;
+    width: auto;
 } 
 #tripple-img{
     display: flex;
@@ -246,6 +252,7 @@ width: 100%;
        /* flex-direction: column; */
        flex-wrap: wrap;
         margin-bottom: 10px;
+        max-width: 690px;
     }
     #quad-img{
        /* flex-direction: column; */
@@ -262,6 +269,8 @@ width: 100%;
     #quad-img > div > img{
         margin-bottom: 10px;
         height: 150px;
+        width: 100%;
+
     }
     #quad-img > div{
         margin-bottom: 10px;

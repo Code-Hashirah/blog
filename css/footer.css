@@ -9,6 +9,7 @@
 #first_footer{
     padding-top: 20px;
     background-color: white;
+    overflow: auto;
     padding-left: 40%;
     padding-right: 30%;
     padding-bottom: 20px;
@@ -38,6 +39,7 @@
 #second_footer{
     padding-top: 20px;
     background-color: black;
+    overflow: auto;
     display: flex;
     justify-content: space-around;
     color: grey;
@@ -85,6 +87,7 @@
     padding-top: 20px;
     color: grey;
     background-color: black;
+    overflow: auto;
     font-size: 12px;
     border-top: 1px solid grey;
 }
