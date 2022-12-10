@@ -88,6 +88,9 @@
     font-size: 12px;
     border-top: 1px solid grey;
 }
+#designed > p{
+    background-color: black;   
+}
 
 
 @media(max-width:400px){
