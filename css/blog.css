@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#imgbox{
+    background-color: rgb(12, 12, 55);
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    margin-bottom: 20px;
+
+}
+
+#imgbox > img {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+#banner{
+position: absolute;
+right: 50%;
+bottom: 60%;
+color: white;
+font-size: 26px;
+text-shadow: 1px 1px 2px;
+}
+
+#blog-content{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.blog1{
+    width: 30%;
+    
+}
+.blog1 > img{
+   height: 200px;
+    width: 100%;
+}
+#body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#side-news{
+    width: 15%;
+   
+}
+#side-news > h4{
+    width: 100%;
+    text-align: center;
+    color: red;
+}
+#side-news > ul{
+    width: 100%;
+    list-style-type: none;
+    color: black;
+}
+.side-pics{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.side-pics > img{
+    width: 80%;
+    height: 50px;
+    flex-wrap: nowrap;
+}
+.side-pics > p{
+    width: auto;
+}
+
+/* Responsiveness code */
+@media screen and (max-width:500px) {
+    #main{
+        max-width: 500px;
+    }
+    #body {
+        max-width: 500px;
+    }
+    #blog-content{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .blog1{
+        flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+        }
+        /* .blog1  */
+#side-news{
+    width: auto;
+}
+.side-pics{
+    width: auto;
+}
+}
