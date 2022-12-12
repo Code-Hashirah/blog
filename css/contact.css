@@ -28,23 +28,68 @@ font-size: 26px;
 text-shadow: 1px 1px 2px;
 }
 #body{
-    background-color: white;
+    background-color: gray;
     display: flex;
     flex-direction: column;
 }
 #body h2{
     text-align: center;
+    padding: 10px;
+    background-color: white;
+}
+#form-email{
+    display: flex;
+    background-color: white;
+}
+iframe{
+    width: 100%;
+    border: 1px solidf grey;
+    padding: 20px;
 }
 #form{
+    display: flex;
+    flex-wrap: wrap;
     border: 1px solid gray;
-    width: 60%;
-    /* display: flex; */
-    /* flex-direction: row; */
-    justify-content: space-around;
+    width: 70%;
 }
 #form > .txt {
     margin: 5px;
-    justify-content: space-evenly;
-    width: 60%;
+    width: 100%;
     flex-wrap: wrap;
+}
+#form > #btn{
+    width: 100%;
+}
+#form > #btn > input {
+    border: 1px solid red;
+}
+#form div{
+    padding: 10px;
+   width: 50%; 
+}
+#address{
+    padding: 5px;
+    text-align: left;
+    text-align: justify;
+}
+#address > p {
+    padding: 5px;
+}
+/* responsivenes */
+@media screen and (max-width:690px) {
+    #banner{
+        /* top: 300%; */
+        bottom: 1%;
+        right: 40%;
+    }
+    #form{
+        width: auto;
+        flex-direction: column;
+    }
+    #address{
+        width: auto;
+    }
+    iframe{
+        max-width: 690px;
+    }
 }

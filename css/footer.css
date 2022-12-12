@@ -96,14 +96,15 @@
 }
 
 
-@media(max-width:400px){
+@media(max-width:500px){
     #first_footer{
-        max-width: 400px;
+        max-width: 500px;
         padding-left: 0;
         padding-right: 0;
     }
+    
     #second_footer{
-     max-width: 400px;
+     max-width: 500px;
         background-color: black;
         /* display: inline; */
         flex-direction: column;
