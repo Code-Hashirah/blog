@@ -10,34 +10,38 @@
     width: 100%;
 }
 #banner {
+    background-image: url("images/BackImg1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
-}
-#banner > img{
-    position: relative;
-    width: 100%;
-    height: 450px;
+    padding: 400px;
 }
 
 
 #banner > p{
-    position: absolute;
-    right: 40%;
-    bottom: 50%;
+    /* position: absolute; */
+    /* right: 40%; */
+    /* bottom: 50%; */
     font-weight: 800;
-    background-color: transparent;
-    border: 1px solid grey;
+    background-color: white;
+    /* border: 1px solid grey; */
     font-size: 16px;
     color: red;
     width: auto;
     overflow: auto;
+    margin-top:5px;
+    text-align: center;
 } 
 #banner > #p{
-    position: absolute;
-    right: 35%;
-    bottom: 40%;
+    text-align: center;
+    /* position: absolute; */
+    /* right: 35%;
+    bottom: 40%; */
+    margin-bottom: 5px;
     background-color: transparent;
     font-size:24px;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
     color: black;
     width: auto;
 } 

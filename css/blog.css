@@ -5,11 +5,15 @@
 }
 
 #imgbox{
-    background-color: rgb(12, 12, 55);
-    padding: 10px;
+    background-image: url("../images/pic1B.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    /* background-color: rgb(12, 12, 55); */
+    padding: 100px;
     width: 100%;
     display: flex;
-    justify-content:flex-start;
+    /* justify-content:flex-start; */
     margin-bottom: 20px;
 
 }

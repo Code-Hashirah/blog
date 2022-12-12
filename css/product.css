@@ -5,8 +5,12 @@
 }
 
 #imgbox{
-    background-color: rgb(12, 12, 55);
-    padding: 10px;
+    background-image: url("../images/pic1B.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:contain;
+    /* background-color: rgb(12, 12, 55); */
+    padding: 100px;
     width: 100%;
     display: flex;
     /* justify-content:flex-start; */
@@ -23,7 +27,7 @@
 position: absolute;
 right: 50%;
 bottom: 60%;
-color: white;
+color: red;
 font-size: 26px;
 text-shadow: 1px 1px 2px;
 }
